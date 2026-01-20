@@ -2,14 +2,14 @@
   "name": "alistaproject",
   "version": "1.0.0",
   "main": "index.ts",
-  "homepage": "https://JackOLantern27.github.io/alistaproject",
+  "homepage": "https://JackOLantern27.github.io/alistaproject/",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "predeploy": "npx expo export --platform web",
-    "deploy": "gh-pages -d dist"
+    "deploy": "type nul > dist\\.nojekyll && gh-pages -d dist"
   },
   "dependencies": {
     "@expo/metro-runtime": "~6.1.2",

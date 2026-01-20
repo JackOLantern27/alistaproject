@@ -25,13 +25,9 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png",
       "bundler": "metro",
-      "display": "standalone",
-      "themeColor": "#ffffff",
-      "description": "Meu app de gerenciamento de listas e mídia",
-      "shortName": "ALista"
+      "baseUrl": "/alistaproject",
+      "display": "standalone"
     }
   }
-}
 }
